@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>combine today</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 320px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+   <meta charset="UTF-8">
+
+
+<h2>My blog</h2>
+<p>歡迎來到我的部落客</p>
+
+<header>
+  <h2>黃柏竣</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="introduce myself.html">自我介紹</a></li>
+      <li><a href="ntust photo.html">學校生活</a></li>
+      <li><a href="life photo.html">生活照</a></li>
+      
+    </ul>
+  </nav>
+  
+  <article>
+   <div style="background-color:black;color:white;padding:20px;">
+  <h2>self-presentation</h2>
+  <p>我是目前就讀台灣科技大學資訊管理系二年級的黃柏竣，學號為B10609019</p>
+  
+</div> 
+<div style="background-color:blue;color:black;padding:20px;">
+  <h2>interest and sport</h2>
+  <p>我平常喜歡唱歌聽音樂，尤其是中文歌，喜歡的歌手是周興哲跟林俊傑，偶爾也會跳跳舞，崇拜的偶像為張藝興，希望以後能成為華人唱跳第一人!</p>
+  <p>休閒時也會打打球，比較擅長的運動為排球，籃球也不錯，球類的運動幾乎都有碰過，但比較強的還是排球，畢竟之前曾是排球校隊!</p>
+  <p>目前有在補習班打工，主要是學習經驗，以後還想打各種的工作，並從中找到興趣，穩定下來，持續下去!</p>
+  <p>精神標語:努力努力再努力!!!</p>
+</div> 
+
+
+</article>
+</section>
+
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
