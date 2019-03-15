@@ -3,7 +3,7 @@
 <head>
 <title>combine today</title>
 <meta charset="utf-8">
-
+<link rel="stylesheet" type="text/css" href="new_all_introduce.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 * {
@@ -49,7 +49,7 @@ body {
 
 /* Style the header */
 header {
-  background-color: #666;
+  background-color:  orange;
   padding: 30px;
   text-align: center;
   font-size: 35px;
@@ -76,7 +76,7 @@ article {
   padding: 20px;
   width: 70%;
   background-color: #f1f1f1;
-  height: 320px; /* only for demonstration, should be removed */
+  height: 500px; /* only for demonstration, should be removed */
 }
 
 /* Clear floats after the columns */
@@ -88,7 +88,7 @@ section:after {
 
 /* Style the footer */
 footer {
-  background-color: #777;
+  background-color: orange;
   padding: 10px;
   text-align: center;
   color: white;
@@ -103,32 +103,95 @@ footer {
 }
 </style>
 </head>
+<style>
+div + p {
+  color: white;
+  
+} 
+h3.website {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+}
+h2.introduce {
+  font-size: 30px;
+}
+h2.school {
+  font-size: 30px;
+}
+h2.self {
+  font-size: 30px;
+}
+h2.e{
+  text-align: right;
+  width: 1200px;
+  border: 5px solid lightblue;
+  padding: 6px;
+}
+h2.w{
+  text-align: right;
+  width: 1200px;
+  border: 5px solid lightblue;
+  padding: 6px;
+}
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+</style>
 <body>
    <meta charset="UTF-8">
 
 
-<h2>My blog</h2>
+<h3 class = "website">My first creat website!</h3>
 <p>歡迎來到我的部落客</p>
 
 <header>
-  <h2>黃柏竣</h2>
+  <h2>黃柏竣---越努力越優秀</h2>
 </header>
 
 <section>
   <nav>
     <ul>
-      <li><a href="introduce myself1.html">自我介紹</a></li>
-      <li><a href="ntust photo1.html">學校生活</a></li>
-      <li><a href="life photo1.html">生活照</a></li>
+      <li><a href="introduce myself1_cs.html"><h2 class = "introduce">自我介紹</h2></p></a></li>
+      <li><a href="experience_cs.html"><h2 class = "self">學歷經歷</h2></a></li>
+      <li><a href="ntust photo1_cs.html"><h2 class = "school">學校照片</h2></a></li>
+      <li><a href="life photo1_cs.html"><h2 class = "self">日常生活</h2></a></li>
+      
       
     </ul>
   </nav>
   
   <article>
+   <div style="background-color:white;color:black;padding:20px;">
+  
+  <h2 style="background-color:SlateBlue;"><h2 class = "e">Education</h2>
+  <p>國小:台北市立福星國民小學</p>
+  <p>國中:台北市立忠孝國民中學</p>
+  <p>高中:台北市立大安高級工業職業學校</p>
+  <p>大學:國立台灣科技大學</p>
 
-  <h2>生活照</h2>
-<p>Good friend!</p>
-<img src="九份之旅_190306_0067.jpg"  alt="life" width = "200" height="180">
+  <h2 style="background-color:SlateBlue;"><h2 class = "w">Work Experience</h2>
+  <p>明光義塾 <br>經歷2017/1~2018/10</p>
+  <p>向品文理補習班 <br>經歷2018/10~現今</p>
+  
+  
+  
+</div> 
+
 
 </article>
 </section>
